@@ -1,0 +1,8 @@
+When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+
+To assign event const startEvent = new Event("start"); 
+---To trigger the event Listener document. addEventListener("start", () => { console. log("The start event was triggered") });
+---To trigger the Event document. dispatchEvent(startEvent);
+
+Example <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
