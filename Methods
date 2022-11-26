@@ -1,0 +1,9 @@
+Methods
+
+JavaScript methods are actions that can be performed on objects.
+Ther are a property containing a function definition.
+Methods are functions stored as object properties.
+You access an object method with the following syntax:
+objectName.methodName()
+
+Example name = person.fullName;
