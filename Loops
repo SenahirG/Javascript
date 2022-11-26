@@ -1,0 +1,35 @@
+LOOPS
+Loops can execute a block of code a number of times.
+JavaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times.
+eg. for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
+
+for/in - loops through the properties of an object
+eg. const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}
+
+for/of - loops through the values of an iterable object
+eg. const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+}
+while - loops through a block of code while a specified condition is true.
+eg. while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+do/while - also loops through a block of code while a specified condition is true
+eg. do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
